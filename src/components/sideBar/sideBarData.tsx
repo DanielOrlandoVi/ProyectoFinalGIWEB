@@ -7,19 +7,19 @@ import {
 
 export const sideBarData = [
   {
-    title: <span className="text-black">Home</span>,
+    title: <span className="text-white">Home</span>,
     path: "/",
-    icon: <HomeIcon className="text-black" />,
+    icon: <HomeIcon className="text-white" />,
 
   },
   {
-    title: <span className="text-black">Productos</span>,
+    title: <span className="text-white">Productos</span>,
     path: "/products/general",
-    icon: <ArchiveBoxIcon className="text-black" />,
+    icon: <ArchiveBoxIcon className="text-white" />,
   },
   {
-    title: <span className="text-black">Crear Producto</span>,
+    title: <span className="text-white">Crear Producto</span>,
     path: "/products/create",
-    icon: <LightBulbIcon className="text-black" />,
+    icon: <LightBulbIcon className="text-white" />,
   }
 ];

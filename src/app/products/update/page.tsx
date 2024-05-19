@@ -11,10 +11,11 @@ import { updateProduct } from '@/services/products';
 import { useRouter } from 'next/router';
 
 
-const router = useRouter();
-const { id_product } = router.query;
+
 
 export default function UpdateProduct() {
+    const router = useRouter();
+    const { id_product } = router.query;
     const methods = useForm<Product>({
         resolver: yupResolver(createProduct),
     });
