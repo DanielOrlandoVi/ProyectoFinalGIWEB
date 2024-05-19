@@ -64,11 +64,12 @@ export default function Products() {
                 </Button>
 
                 <Button
-                  className="text-white bg-custom-red rounded-md px-4 py-0.1 ml-2"
+                  className="text-white bg-custom-red rounded-md px-3 py-0.1 ml-2"
                   onClick={() => handleDelete(product.id.toString())}
                 >
                   Eliminar
                 </Button>
+
               </td>
             </TableTr>
           ))}

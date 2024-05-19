@@ -52,8 +52,8 @@ export default function ProductDetail() {
                     <h1>Rating: {product.rating}</h1>
 
                     <Button
-                      className="text-white bg-custom-green rounded-md px-4 py-0.1"
-                      href={`/products/update/${id_product}`}
+                      className="text-white bg-custom-green rounded-md px-4 py-0.1 mt-5"
+                      href={`/products/update`}
                     >
                       Editar Producto
                     </Button>                  
